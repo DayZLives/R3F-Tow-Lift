@@ -44,7 +44,7 @@ _objet addEventHandler ["GetIn",
 			if ((!(isNull (_this select 0 getVariable "R3F_LOG_est_deplace_par")) && (alive (_this select 0 getVariable "R3F_LOG_est_deplace_par"))) || !(isNull (_this select 0 getVariable "R3F_LOG_est_transporte_par"))) then
 			{
 				player action ["eject", _this select 0];
-				player globalChat STR_R3F_LOG_transport_en_cours;
+				systemChat STR_R3F_LOG_transport_en_cours;
 			};
 		};
 	};

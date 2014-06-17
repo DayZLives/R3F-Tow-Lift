@@ -13,397 +13,34 @@
 
 /**
  * List of class names of vehicles which can tow towable objects.
- * Liste des noms de classes des véhicules terrestres pouvant remorquer des objets remorquables.
+ * This is the list of Vehicles that are ABLE to tow.
  */
-//Addition of DayZ Epoch Vehicles at 1.0.2.5 
-
 R3F_LOG_CFG_remorqueurs = R3F_LOG_CFG_remorqueurs +
-[
-"ArmoredSUV_PMC_DZ",
-"car_hatchback",
-"car_sedan",
-"datsun1_civil_1_open",
-"datsun1_civil_2_covered",
-"datsun1_civil_3_open",
-"Fishing_Boat",
-"GAZ_Vodnik_DZ",
-"GAZ_Vodnik_MedEvac",
-"GLT_M300_LT",
-"GLT_M300_ST",
-"GNT_C1105",
-"GNT_C1105C",
-"GNT_C1105R",
-"GNT_C1105U",
-"hilux1_civil_1_open",
-"hilux1_civil_2_covered",
-"hilux1_civil_3_open_EP1",
-"HMMWV_Ambulance",
-"HMMWV_Ambulance_CZ_DES_EP1",
-"HMMWV_DES_EP1",
-"HMMWV_DZ",
-"HMMWV_M1035_DES_EP1",
-"HMMWV_M1151_M2_CZ_DES_EP1_DZ",
-"HMMWV_M9910A2_SOV_DES_EP1_DZ",
-"Ikarus",
-"Ikarus_TK_CIV_EP1",
-"Kamaz",
-"KamazRefuel_DZ",
-"Lada1",
-"Lada1_TK_CIV_EP1",
-"Lada2",
-"Lada2_TK_CIV_EP1",
-"LadaLM",
-"LandRover_CZ_EP1",
-"LandRover_MG_TK_EP1_DZ",
-"LandRover_Special_CZ_EP1_DZ",
-"LandRover_TK_CIV_EP1",
-"MMT_Civ",
-"MtvrRefuel_DES_EP1_DZ",
-"MTVR_DES_EP1",
-"Offroad_DSHKM_Gue_DZ",
-"PBX",
-"Pickup_PK_GUE_DZ",
-"Pickup_PK_INS_DZ",
-"Pickup_PK_TK_GUE_EP1_DZ",
-"RHIB",
-"S1203_ambulance_EP1",
-"S1203_TK_CIV_EP1",
-"Skoda",
-"SkodaBlue",
-"SkodaGreen",
-"SkodaRed",
-"Smallboat_1",
-"Smallboat_2",
-"SUV_Blue",
-"SUV_Camo",
-"SUV_Charcoal",
-"SUV_Green",
-"SUV_Orange",
-"SUV_Pink",
-"SUV_Red",
-"SUV_Silver",
-"SUV_TK_CIV_EP1",
-"SUV_White",
-"SUV_Yellow",
-"tractor",
-"TT650_Civ",
-"TT650_Ins",
-"TT650_TK_CIV_EP1",
-"UAZ_CDF",
-"UAZ_INS",
-"UAZ_MG_TK_EP1_DZ",
-"UAZ_RU",
-"UAZ_Unarmed_TK_CIV_EP1",
-"UAZ_Unarmed_TK_EP1",
-"UAZ_Unarmed_UN_EP1",
-"UralRefuel_TK_EP1_DZ",
-"Ural_CDF",
-"Ural_TK_CIV_EP1",
-"Ural_UN_EP1",
-"V3S_Open_TK_CIV_EP1",
-"V3S_Open_TK_EP1",
-"V3S_Refuel_TK_GUE_EP1_DZ",
-"VolhaLimo_TK_CIV_EP1",
-"Volha_1_TK_CIV_EP1",
-"Volha_2_TK_CIV_EP1",
-"VWGolf",
-"V3S_Civ",
-"V3S_TK_EP1_DZE",
-"V3S_RA_TK_GUE_EP1_DZE",
-"UralCivil_DZE",
-"UralCivil2_DZE",
-"KamazOpen_DZE",
-"MtvrRefuel_DZ",
-"MTVR",
-"Zodiac"
-];
+[];
 
 /**
  * List of class names of towables objects.
- * Liste des noms de classes des objets remorquables.
+ * This is the list of vehicles that ARE towable
  */
 R3F_LOG_CFG_objets_remorquables = R3F_LOG_CFG_objets_remorquables +
-[
-"AN2_DZ",
-"ArmoredSUV_PMC_DZ",
-"ATV_CZ_EP1",
-"ATV_US_EP1",
-"C130J_US_EP1",
-"car_hatchback",
-"car_sedan",
-"CSJ_GyroC",
-"CSJ_GyroCover",
-"CSJ_GyroP",
-"datsun1_civil_1_open",
-"datsun1_civil_2_covered",
-"datsun1_civil_3_open",
-"Fishing_Boat",
-"GAZ_Vodnik_DZ",
-"GAZ_Vodnik_MedEvac",
-"GLT_M300_LT",
-"GLT_M300_ST",
-"GNT_C1105",
-"GNT_C1105C",
-"GNT_C1105R",
-"GNT_C1105U",
-"hilux1_civil_1_open",
-"hilux1_civil_2_covered",
-"hilux1_civil_3_open_EP1",
-"HMMWV_Ambulance",
-"HMMWV_Ambulance_CZ_DES_EP1",
-"HMMWV_DES_EP1",
-"HMMWV_DZ",
-"HMMWV_M1035_DES_EP1",
-"HMMWV_M1151_M2_CZ_DES_EP1_DZ",
-"HMMWV_M9910A2_SOV_DES_EP1_DZ",
-"Ikarus",
-"Ikarus_TK_CIV_EP1",
-"JetSkiYanahui_Case_Blue",
-"JetSkiYanahui_Case_Green",
-"JetSkiYanahui_Case_Red",
-"JetSkiYanahui_Case_Yellow",
-"Kamaz",
-"KamazRefuel_DZ",
-"Lada1",
-"Lada1_TK_CIV_EP1",
-"Lada2",
-"Lada2_TK_CIV_EP1",
-"LadaLM",
-"LandRover_CZ_EP1",
-"LandRover_MG_TK_EP1_DZ",
-"LandRover_Special_CZ_EP1_DZ",
-"LandRover_TK_CIV_EP1",
-"M1030_US_DES_EP1",
-"MMT_Civ",
-"MtvrRefuel_DES_EP1_DZ",
-"MTVR_DES_EP1",
-"Offroad_DSHKM_Gue_DZ",
-"Old_bike_TK_INS_EP1",
-"Old_moto_TK_Civ_EP1",
-"PBX",
-"Pickup_PK_GUE_DZ",
-"Pickup_PK_INS_DZ",
-"Pickup_PK_TK_GUE_EP1_DZ",
-"RHIB",
-"S1203_ambulance_EP1",
-"S1203_TK_CIV_EP1",
-"Skoda",
-"SkodaBlue",
-"SkodaGreen",
-"SkodaRed",
-"Smallboat_1",
-"Smallboat_2",
-"SUV_Blue",
-"SUV_Camo",
-"SUV_Charcoal",
-"SUV_Green",
-"SUV_Orange",
-"SUV_Pink",
-"SUV_Red",
-"SUV_Silver",
-"SUV_TK_CIV_EP1",
-"SUV_White",
-"SUV_Yellow",
-"tractor",
-"TT650_Civ",
-"TT650_Ins",
-"TT650_TK_CIV_EP1",
-"UAZ_CDF",
-"UAZ_INS",
-"UAZ_MG_TK_EP1_DZ",
-"UAZ_RU",
-"UAZ_Unarmed_TK_CIV_EP1",
-"UAZ_Unarmed_TK_EP1",
-"UAZ_Unarmed_UN_EP1",
-"UralRefuel_TK_EP1_DZ",
-"Ural_CDF",
-"Ural_TK_CIV_EP1",
-"Ural_UN_EP1",
-"V3S_Open_TK_CIV_EP1",
-"V3S_Open_TK_EP1",
-"V3S_Refuel_TK_GUE_EP1_DZ",
-"VolhaLimo_TK_CIV_EP1",
-"Volha_1_TK_CIV_EP1",
-"Volha_2_TK_CIV_EP1",
-"VWGolf",
-"V3S_Civ",
-"V3S_TK_EP1_DZE",
-"V3S_RA_TK_GUE_EP1_DZE",
-"UralCivil_DZE",
-"UralCivil2_DZE",
-"KamazOpen_DZE",
-"MtvrRefuel_DZ",
-"MTVR",
-"Zodiac"
-	
-];
+[];
 
 
 /****** LIFT WITH VEHICLE / HELIPORTER AVEC VEHICULE ******/
 
 /**
  * List of class names of air vehicles which can lift liftable objects.
- * Liste des noms de classes des véhicules aériens pouvant héliporter des objets héliportables.
+ * This is the list of HELICOPTERS that can lift
  */
 R3F_LOG_CFG_heliporteurs = R3F_LOG_CFG_heliporteurs +
-[
-	"CH47_base_EP1",
-	"Mi17_base",
-	"Mi24_Base",
-	"UH1H_base",
-	"UH1_Base",
-	"UH60_Base",
-	"MV22",
-	"CH_47F_EP1_DZ",
-	"MH6J_DZ",
-	"Mi17_Civilian_DZ",
-	"Mi17_DZ",
-	"MV22_DZ",
-	"UH1H_DZ",
-    "UH1Y_DZ",
-	"BAF_Merlin_HC3_D",
-    "UH60M_EP1_DZ"
-];
+[];
 
 /**
  * List of class names of liftable objects.
- * Liste des noms de classes des objets héliportables.
+ * This is the list of vehicles that CAN be lifted
  */
 R3F_LOG_CFG_objets_heliportables = R3F_LOG_CFG_objets_heliportables +
-[
-"ATV_Base_EP1",
-"HMMWV_Base",
-"Ikarus_TK_CIV_EP1",
-"Lada_base",
-"LandRover_Base",
-"Offroad_DSHKM_base",
-"Pickup_PK_base",
-"S1203_TK_CIV_EP1",
-"SUV_Base_EP1",
-"SkodaBase",
-"TowingTractor",
-"Tractor",
-"Kamaz_Base",
-"MTVR",
-"GRAD_Base",
-"Ural_Base",
-"Ural_ZU23_Base",
-"V3S_Base",
-"UAZ_Base",
-"VWGolf",
-"Volha_TK_CIV_Base_EP1",
-"BTR40_MG_base_EP1",
-"hilux1_civil_1_open",
-"hilux1_civil_3_open_EP1",
-"D30_base",
-"M119",
-"ZU23_base",
-"Boat",
-"Fishing_Boat",
-"SeaFox",
-"Smallboat_1",
-"ArmoredSUV_PMC_DZ",
-"ATV_CZ_EP1",
-"ATV_US_EP1",
-"car_hatchback",
-"car_sedan",
-"datsun1_civil_1_open",
-"datsun1_civil_2_covered",
-"datsun1_civil_3_open",
-"Fishing_Boat",
-"GAZ_Vodnik_DZ",
-"GAZ_Vodnik_MedEvac",
-"GLT_M300_LT",
-"GLT_M300_ST",
-"GNT_C1105",
-"GNT_C1105C",
-"GNT_C1105R",
-"GNT_C1105U",
-"hilux1_civil_1_open",
-"hilux1_civil_2_covered",
-"hilux1_civil_3_open_EP1",
-"HMMWV_Ambulance",
-"HMMWV_Ambulance_CZ_DES_EP1",
-"HMMWV_DES_EP1",
-"HMMWV_DZ",
-"HMMWV_M1035_DES_EP1",
-"HMMWV_M1151_M2_CZ_DES_EP1_DZ",
-"HMMWV_M9910A2_SOV_DES_EP1_DZ",
-"Ikarus",
-"Ikarus_TK_CIV_EP1",
-"JetSkiYanahui_Case_Blue",
-"JetSkiYanahui_Case_Green",
-"JetSkiYanahui_Case_Red",
-"JetSkiYanahui_Case_Yellow",
-"Kamaz",
-"KamazRefuel_DZ",
-"Lada1",
-"Lada1_TK_CIV_EP1",
-"Lada2",
-"Lada2_TK_CIV_EP1",
-"LadaLM",
-"LandRover_CZ_EP1",
-"LandRover_MG_TK_EP1_DZ",
-"LandRover_Special_CZ_EP1_DZ",
-"LandRover_TK_CIV_EP1",
-"MtvrRefuel_DES_EP1_DZ",
-"MTVR_DES_EP1",
-"Offroad_DSHKM_Gue_DZ",
-"Old_moto_TK_Civ_EP1",
-"PBX",
-"Pickup_PK_GUE_DZ",
-"Pickup_PK_INS_DZ",
-"Pickup_PK_TK_GUE_EP1_DZ",
-"RHIB",
-"S1203_ambulance_EP1",
-"S1203_TK_CIV_EP1",
-"Skoda",
-"SkodaBlue",
-"SkodaGreen",
-"SkodaRed",
-"Smallboat_1",
-"Smallboat_2",
-"SUV_Blue",
-"SUV_Camo",
-"SUV_Charcoal",
-"SUV_Green",
-"SUV_Orange",
-"SUV_Pink",
-"SUV_Red",
-"SUV_Silver",
-"SUV_TK_CIV_EP1",
-"SUV_White",
-"SUV_Yellow",
-"tractor",
-"UAZ_CDF",
-"UAZ_INS",
-"UAZ_MG_TK_EP1_DZ",
-"UAZ_RU",
-"UAZ_Unarmed_TK_CIV_EP1",
-"UAZ_Unarmed_TK_EP1",
-"UAZ_Unarmed_UN_EP1",
-"UralRefuel_TK_EP1_DZ",
-"Ural_CDF",
-"Ural_TK_CIV_EP1",
-"Ural_UN_EP1",
-"V3S_Open_TK_CIV_EP1",
-"V3S_Open_TK_EP1",
-"V3S_Refuel_TK_GUE_EP1_DZ",
-"VolhaLimo_TK_CIV_EP1",
-"Volha_1_TK_CIV_EP1",
-"Volha_2_TK_CIV_EP1",
-"VWGolf",
-"V3S_Civ",
-"V3S_TK_EP1_DZE",
-"V3S_RA_TK_GUE_EP1_DZE",
-"UralCivil_DZE",
-"UralCivil2_DZE",
-"KamazOpen_DZE",
-"MtvrRefuel_DZ",
-"MTVR",
-"Zodiac"
-	
-];
+[];
 
 
 /****** LOAD IN VEHICLE / CHARGER DANS LE VEHICULE ******/
@@ -432,32 +69,28 @@ R3F_LOG_CFG_objets_heliportables = R3F_LOG_CFG_objets_heliportables +
  * List of class names of (ground or air) vehicles which can transport transportable objects.
  * The second element of the arrays is the load capacity (in relation with the capacity cost of the objects).
  * 
- * Liste des noms de classes des véhicules (terrestres ou aériens) pouvant transporter des objets transportables.
- * Le deuxième élément des tableaux est la capacité de chargement (en relation avec le coût de capacité des objets).
+ * [Vehicle Name, Capacity],
+ * ["Ikarus", 50],
  */
 R3F_LOG_CFG_transporteurs = R3F_LOG_CFG_transporteurs +
-[
+[];
 
-];
 /**
  * List of class names of transportable objects.
  * The second element of the arrays is the cost capacity (in relation with the capacity of the vehicles).
  * 
- * Liste des noms de classes des objets transportables.
- * Le deuxième élément des tableaux est le coût de capacité (en relation avec la capacité des véhicules).
+ * [VEHICLE NAME, COST CAPACITY],
+ * ["ATV_Base_EP1", 20],
  */
 R3F_LOG_CFG_objets_transportables = R3F_LOG_CFG_objets_transportables +
-[
+[];
 
-];
 
 /****** MOVABLE-BY-PLAYER OBJECTS / OBJETS DEPLACABLES PAR LE JOUEUR ******/
 
 /**
  * List of class names of objects moveable by player.
- * Liste des noms de classes des objets transportables par le joueur.
+ * "MASH",
  */
 R3F_LOG_CFG_objets_deplacables = R3F_LOG_CFG_objets_deplacables +
-[
-
-];
+[];

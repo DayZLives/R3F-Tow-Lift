@@ -12,7 +12,7 @@
 
 if (R3F_LOG_mutex_local_verrou) then
 {
-	player globalChat STR_R3F_LOG_mutex_action_en_cours;
+	systemChat STR_R3F_LOG_mutex_action_en_cours;
 }
 else
 {
@@ -50,12 +50,12 @@ else
 		}
 		else
 		{
-			player globalChat STR_R3F_LOG_action_detacher_fait;
+			systemChat STR_R3F_LOG_action_detacher_fait;
 		};
 	}
 	else
 	{
-		player globalChat STR_R3F_LOG_action_detacher_impossible_pour_ce_vehicule;
+		systemChat STR_R3F_LOG_action_detacher_impossible_pour_ce_vehicule;
 	};
 	
 	R3F_LOG_mutex_local_verrou = false;

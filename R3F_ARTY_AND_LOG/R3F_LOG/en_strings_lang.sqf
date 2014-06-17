@@ -5,6 +5,7 @@
 
 STR_R3F_LOG_action_heliporter = "Lift the object";
 STR_R3F_LOG_action_heliporter_fait = "Object ""%1"" attached.";
+STR_R3F_LOG_action_heliporter_error = "You are not allowed to lift the object.";
 STR_R3F_LOG_action_heliporter_deja_transporte = "The object ""%1"" is already transported by a vehicle.";
 STR_R3F_LOG_action_heliporter_deplace_par_joueur = "The object ""%1"" is being moved by a player.";
 STR_R3F_LOG_action_heliporter_joueur_dans_objet = "There is a player in the object ""%1"".";

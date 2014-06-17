@@ -27,7 +27,62 @@
  */
 R3F_LOG_CFG_remorqueurs =
 [
-	// e.g. : "MyTowingVehicleClassName1", "MyTowingVehicleClassName2"
+	"ArmoredSUV_PMC",
+	"BTR40_TK_GUE_EP1",
+	"GAZ_Vodnik_DZE",
+	"GAZ_Vodnik_MedEvac",
+	"hilux1_civil_1_open",
+	"hilux1_civil_2_covered",
+	"hilux1_civil_3_open_EP1",
+	"HMMWV_Ambulance",
+	"HMMWV_Ambulance_CZ_DES_EP1",
+	"HMMWV_DES_EP1",
+	"HMMWV_DZ",
+	"HMMWV_M1035_DES_EP1",
+	"HMMWV_M1151_M2_CZ_DES_EP1_DZE",
+	"HMMWV_M998A2_SOV_DES_EP1_DZE",
+	"Ikarus",
+	"Ikarus_TK_CIV_EP1",
+	"LandRover_CZ_EP1",
+	"LandRover_MG_TK_EP1_DZE",
+	"LandRover_Special_CZ_EP1_DZE",
+	"LandRover_TK_CIV_EP1",
+	"Offroad_DSHKM_Gue_DZE",
+	"Pickup_PK_GUE_DZE",
+	"Pickup_PK_INS_DZE",
+	"Pickup_PK_TK_GUE_EP1_DZE",
+	"Kamaz",
+	"KamazRefuel_DZ",
+	"M1133_MEV_EP1",
+	"M113Ambul_UN_EP1",
+	"MtvrRefuel_DES_EP1_DZ",
+	"MTVR_DES_EP1",
+	"SUV_Blue",
+	"SUV_Camo",
+	"SUV_Charcoal",
+	"SUV_Green",
+	"SUV_Orange",
+	"SUV_Pink",
+	"SUV_Red",
+	"SUV_Silver",
+	"SUV_TK_CIV_EP1",
+	"SUV_White",
+	"SUV_Yellow",
+	"tractor",
+	"UAZ_CDF",
+	"UAZ_INS",
+	"UAZ_MG_TK_EP1_DZE",
+	"UAZ_RU",
+	"UAZ_Unarmed_TK_CIV_EP1",
+	"UAZ_Unarmed_TK_EP1",
+	"UAZ_Unarmed_UN_EP1",
+	"UralRefuel_TK_EP1_DZ",
+	"Ural_CDF",
+	"Ural_TK_CIV_EP1",
+	"Ural_UN_EP1",
+	"V3S_Open_TK_CIV_EP1",
+	"V3S_Open_TK_EP1",
+	"V3S_Refuel_TK_GUE_EP1_DZ"
 ];
 
 /**
@@ -36,7 +91,74 @@ R3F_LOG_CFG_remorqueurs =
  */
 R3F_LOG_CFG_objets_remorquables =
 [
-	// e.g. : "MyTowableObjectClassName1", "MyTowableObjectClassName2"
+	"ArmoredSUV_PMC_DZE",
+	"ArmoredSUV_PMC",
+	"C130J",
+	"C130J_US_EP1",
+	"car_hatchback",
+	"car_sedan",
+	"datsun1_civil_1_open",
+	"datsun1_civil_2_covered",
+	"datsun1_civil_3_open",
+	"GAZ_Vodnik_DZE",
+	"GAZ_Vodnik_MedEvac",
+	"GLT_M300_LT",
+	"GLT_M300_ST",
+	"hilux1_civil_1_open",
+	"hilux1_civil_2_covered",
+	"hilux1_civil_3_open_EP1",
+	"HMMWV_Ambulance",
+	"HMMWV_Ambulance_CZ_DES_EP1",
+	"HMMWV_DES_EP1",
+	"HMMWV_DZ",
+	"HMMWV_M1035_DES_EP1",
+	"HMMWV_M1151_M2_CZ_DES_EP1_DZE",
+	"HMMWV_M998A2_SOV_DES_EP1_DZE",
+	"Lada1",
+	"Lada1_TK_CIV_EP1",
+	"Lada2",
+	"Lada2_TK_CIV_EP1",
+	"LadaLM",
+	"LandRover_CZ_EP1",
+	"LandRover_MG_TK_EP1_DZE",
+	"LandRover_Special_CZ_EP1_DZE",
+	"LandRover_TK_CIV_EP1",
+	"MV22",
+	"MV22_DZ",
+	"Offroad_DSHKM_Gue_DZE",
+	"Pickup_PK_GUE_DZE",
+	"Pickup_PK_INS_DZE",
+	"Pickup_PK_TK_GUE_EP1_DZE",
+	"S1203_ambulance_EP1",
+	"S1203_TK_CIV_EP1",
+	"Skoda",
+	"SkodaBlue",
+	"SkodaGreen",
+	"SkodaRed",
+	"SUV_Blue",
+	"SUV_Camo",
+	"SUV_Charcoal",
+	"SUV_Green",
+	"SUV_Orange",
+	"SUV_Pink",
+	"SUV_Red",
+	"SUV_Silver",
+	"SUV_TK_CIV_EP1",
+	"SUV_White",
+	"SUV_Yellow",
+	"tractor",
+	"UAZ_CDF",
+	"UAZ_INS",
+	"UAZ_MG_TK_EP1_DZE",
+	"UAZ_RU",
+	"UAZ_Unarmed_TK_CIV_EP1",
+	"UAZ_Unarmed_TK_EP1",
+	"UAZ_Unarmed_UN_EP1",
+	"VolhaLimo_TK_CIV_EP1",
+	"Volha_1_TK_CIV_EP1",
+	"Volha_2_TK_CIV_EP1",
+	"VWGolf",
+	"Zodiac"
 ];
 
 
@@ -48,7 +170,13 @@ R3F_LOG_CFG_objets_remorquables =
  */
 R3F_LOG_CFG_heliporteurs =
 [
-	// e.g. : "MyLifterVehicleClassName1", "MyLifterVehicleClassName2"
+	"BAF_Merlin_HC3_D",
+	"CH_47F_EP1_DZE",
+	"Mi17_Civilian_DZ",
+	"Mi17_DZE",
+	"UH1H_DZE",
+	"UH1Y_DZE",
+	"UH60M_EP1_DZE"
 ];
 
 /**
@@ -57,7 +185,83 @@ R3F_LOG_CFG_heliporteurs =
  */
 R3F_LOG_CFG_objets_heliportables =
 [
-	// e.g. : "MyLiftableObjectClassName1", "MyLiftableObjectClassName2"
+	"ArmoredSUV_PMC_DZE",
+	"ArmoredSUV_PMC",
+	"car_hatchback",
+	"car_sedan",
+	"datsun1_civil_1_open",
+	"datsun1_civil_2_covered",
+	"datsun1_civil_3_open",
+	"GAZ_Vodnik_DZE",
+	"GAZ_Vodnik_MedEvac",
+	"GLT_M300_LT",
+	"GLT_M300_ST",
+	"hilux1_civil_1_open",
+	"hilux1_civil_2_covered",
+	"hilux1_civil_3_open_EP1",
+	"HMMWV_Ambulance",
+	"HMMWV_Ambulance_CZ_DES_EP1",
+	"HMMWV_DES_EP1",
+	"HMMWV_DZ",
+	"HMMWV_M1035_DES_EP1",
+	"HMMWV_M1151_M2_CZ_DES_EP1_DZE",
+	"HMMWV_M998A2_SOV_DES_EP1_DZE",
+	"Ikarus",
+	"Ikarus_TK_CIV_EP1",
+	"Kamaz",
+	"KamazRefuel_DZ",
+	"Lada1",
+	"Lada1_TK_CIV_EP1",
+	"Lada2",
+	"Lada2_TK_CIV_EP1",
+	"LadaLM",
+	"LandRover_CZ_EP1",
+	"LandRover_MG_TK_EP1_DZE",
+	"LandRover_Special_CZ_EP1_DZE",
+	"LandRover_TK_CIV_EP1",
+	"MtvrRefuel_DES_EP1_DZ",
+	"MTVR_DES_EP1",
+	"Offroad_DSHKM_Gue_DZE",
+	"Pickup_PK_GUE_DZE",
+	"Pickup_PK_INS_DZE",
+	"Pickup_PK_TK_GUE_EP1_DZE",
+	"S1203_ambulance_EP1",
+	"S1203_TK_CIV_EP1",
+	"Skoda",
+	"SkodaBlue",
+	"SkodaGreen",
+	"SkodaRed",
+	"SUV_Blue",
+	"SUV_Camo",
+	"SUV_Charcoal",
+	"SUV_Green",
+	"SUV_Orange",
+	"SUV_Pink",
+	"SUV_Red",
+	"SUV_Silver",
+	"SUV_TK_CIV_EP1",
+	"SUV_White",
+	"SUV_Yellow",
+	"tractor",
+	"UAZ_CDF",
+	"UAZ_INS",
+	"UAZ_MG_TK_EP1_DZE",
+	"UAZ_RU",
+	"UAZ_Unarmed_TK_CIV_EP1",
+	"UAZ_Unarmed_TK_EP1",
+	"UAZ_Unarmed_UN_EP1",
+	"UralRefuel_TK_EP1_DZ",
+	"Ural_CDF",
+	"Ural_TK_CIV_EP1",
+	"Ural_UN_EP1",
+	"V3S_Open_TK_CIV_EP1",
+	"V3S_Open_TK_EP1",
+	"V3S_Refuel_TK_GUE_EP1_DZ",
+	"VolhaLimo_TK_CIV_EP1",
+	"Volha_1_TK_CIV_EP1",
+	"Volha_2_TK_CIV_EP1",
+	"VWGolf",
+	"Zodiac"
 ];
 
 
@@ -92,7 +296,15 @@ R3F_LOG_CFG_objets_heliportables =
  */
 R3F_LOG_CFG_transporteurs =
 [
-	// e.g. : ["MyTransporterClassName1", itsCapacity], ["MyTransporterClassName2", itsCapacity]
+	["AH6X_DZ", 50],
+	["BAF_Merlin_HC3_D", 50],
+	["CH_47F_EP1_DZE", 50],
+	["MH6J_DZ", 50],
+	["Mi17_Civilian_DZ", 50],
+	["Mi17_DZE", 50],
+	["UH1H_DZE", 50],
+	["UH1Y_DZE", 50],
+	["UH60M_EP1_DZE", 50]
 ];
 
 /**
@@ -104,7 +316,18 @@ R3F_LOG_CFG_transporteurs =
  */
 R3F_LOG_CFG_objets_transportables =
 [
-	// e.g. : ["MyTransportableObjectClassName1", itsCost], ["MyTransportableObjectClassName2", itsCost]
+	["ATV_CZ_EP1", 50],
+	["ATV_US_EP1", 50],
+    ["CSJ_GyroC", 50],
+    ["CSJ_GyroCover", 50],
+    ["CSJ_GyroP", 50],
+	["M1030_US_DES_EP1", 25],
+	["MMT_Civ", 10],
+	["Old_bike_TK_INS_EP1", 10],
+	["Old_moto_TK_Civ_EP1", 25],
+	["TT650_Civ", 25],
+	["TT650_Ins", 25],
+	["TT650_TK_CIV_EP1", 25]
 ];
 
 /****** MOVABLE-BY-PLAYER OBJECTS / OBJETS DEPLACABLES PAR LE JOUEUR ******/
@@ -115,7 +338,8 @@ R3F_LOG_CFG_objets_transportables =
  */
 R3F_LOG_CFG_objets_deplacables =
 [
-	// e.g. : "MyMovableObjectClassName1", "MyMovableObjectClassName2"
+	"MMT_Civ",
+	"Old_bike_TK_INS_EP1"
 ];
 
 /*
@@ -125,6 +349,6 @@ R3F_LOG_CFG_objets_deplacables =
  * Liste des fichiers ajoutant des objets dans les tableaux de fonctionnalités logistiques (ex : R3F_LOG_CFG_remorqueurs)
  * Ajoutez une inclusion vers votre nouveau fichier ici si vous souhaitez utilisez la logistique avec un nouvel addon.
  */
-#include "addons_config\ACE_OA_objects.sqf"
-#include "addons_config\BAF_objects.sqf"
-#include "addons_config\arma2_CO_objects.sqf"
+//#include "addons_config\ACE_OA_objects.sqf"
+//#include "addons_config\BAF_objects.sqf"
+//#include "addons_config\arma2_CO_objects.sqf"

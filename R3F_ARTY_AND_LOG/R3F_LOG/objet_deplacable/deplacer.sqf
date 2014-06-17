@@ -13,7 +13,7 @@
 
 if (R3F_LOG_mutex_local_verrou) then
 {
-	player globalChat STR_R3F_LOG_mutex_action_en_cours;
+	systemChat STR_R3F_LOG_mutex_action_en_cours;
 }
 else
 {
@@ -93,14 +93,14 @@ else
 			{
 				if (vehicle player != player) then
 				{
-					player globalChat STR_R3F_LOG_ne_pas_monter_dans_vehicule;
+					systemChat STR_R3F_LOG_ne_pas_monter_dans_vehicule;
 					player action ["eject", vehicle player];
 					sleep 1;
 				};
 				
 				if ([0,0,0] distance (velocity player) > 2.8) then
 				{
-					player globalChat STR_R3F_LOG_courir_trop_vite;
+					systemChat STR_R3F_LOG_courir_trop_vite;
 					player playMove "AmovPpneMstpSnonWnonDnon";
 					sleep 1;
 				};

@@ -12,7 +12,7 @@
 
 if (R3F_LOG_mutex_local_verrou) then
 {
-	player globalChat STR_R3F_LOG_mutex_action_en_cours;
+	systemChat STR_R3F_LOG_mutex_action_en_cours;
 }
 else
 {
@@ -72,7 +72,7 @@ else
 					_objets_charges = _objets_charges + [_objet];
 					_transporteur setVariable ["R3F_LOG_objets_charges", _objets_charges, true];
 					
-					player globalChat STR_R3F_LOG_action_charger_selection_en_cours;
+					systemChat STR_R3F_LOG_action_charger_selection_en_cours;
 					
 					sleep 2;
 					
@@ -90,21 +90,21 @@ else
 					
 					R3F_LOG_objet_selectionne = objNull;
 					
-					player globalChat format [STR_R3F_LOG_action_charger_selection_fait, getText (configFile >> "CfgVehicles" >> (typeOf _objet) >> "displayName")];
+					systemChat format [STR_R3F_LOG_action_charger_selection_fait, getText (configFile >> "CfgVehicles" >> (typeOf _objet) >> "displayName")];
 				}
 				else
 				{
-					player globalChat format [STR_R3F_LOG_action_charger_selection_trop_loin, getText (configFile >> "CfgVehicles" >> (typeOf _objet) >> "displayName")];
+					systemChat format [STR_R3F_LOG_action_charger_selection_trop_loin, getText (configFile >> "CfgVehicles" >> (typeOf _objet) >> "displayName")];
 				};
 			}
 			else
 			{
-				player globalChat STR_R3F_LOG_action_charger_selection_pas_assez_de_place;
+				systemChat STR_R3F_LOG_action_charger_selection_pas_assez_de_place;
 			};
 		}
 		else
 		{
-			player globalChat format [STR_R3F_LOG_action_charger_selection_objet_transporte, getText (configFile >> "CfgVehicles" >> (typeOf _objet) >> "displayName")];
+			systemChat format [STR_R3F_LOG_action_charger_selection_objet_transporte, getText (configFile >> "CfgVehicles" >> (typeOf _objet) >> "displayName")];
 		};
 	};
 	

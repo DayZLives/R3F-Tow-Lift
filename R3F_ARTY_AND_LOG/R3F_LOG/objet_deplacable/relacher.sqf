@@ -4,7 +4,7 @@
 
 if (R3F_LOG_mutex_local_verrou) then
 {
-	player globalChat STR_R3F_LOG_mutex_action_en_cours;
+	systemChat STR_R3F_LOG_mutex_action_en_cours;
 }
 else
 {
