@@ -16,7 +16,7 @@ This is a modified and preconfigured version of R3F's tow and lift script
 
 	~~~~java
   //Tow and lift
-  [] execVM “R3F_ARTY_AND_LOG\init.sqf”;
+  [] execVM "R3F_ARTY_AND_LOG\init.sqf";
 	~~~~
 
 1. Find the following line:
