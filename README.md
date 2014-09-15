@@ -11,25 +11,51 @@ This is a modified and preconfigured version of R3F's tow and lift script
  
 	> Note: "Your_Mission.pbo" is a placeholder name. Your mission might be called "DayZ_Epoch_11.Chernarus", "DayZ_Epoch_13.Tavi", or "dayz_mission" depending on hosting and chosen map.
 
-1. Extract the downloaded folder and copy the ***R3F_ARTY_AND_LOG*** and ***custom*** from the folder into the root of your mission folder.
-1. Open the ***init.sqf*** in the root of your mission folder and paste the following at the bottom:
+1. Extract the downloaded folder and copy the ***R3F_ARTY_AND_LOG*** folder into the root of your mission folder.
 
-	~~~~java
-  //Tow and lift
-  [] execVM "R3F_ARTY_AND_LOG\init.sqf";
-	~~~~
+1. If you do not have a custom compiles.sqf do step (A). If you have a custom compiles.sqf do step (B).
+	   
+	> #### (A)
 
-1. Find the following line:
+	> 1. Navigate to your mission folder and open the ***init.sqf***.
+	> 1. Open the ***init.sqf*** in the root of your mission folder and paste the following at the bottom:
+	
+	>	~~~~java
+	>  	//Tow and lift
+	>	[] execVM "R3F_ARTY_AND_LOG\init.sqf";
+	>	~~~~
+	
+	> 1. Find the following line:
+	
+	>  	~~~~java
+	>	call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\compiles.sqf";
+	>	~~~~
+	  
+	>  	and replace it with:
+	  
+	>  	~~~~java
+	>  	call compile preprocessFileLineNumbers "custom\compiles.sqf";
+	>  	~~~~
+	
+	> 1. Copy the ***custom folder*** (in the download) into your mission folder.
+	
+	> #### (B)
 
-  ~~~~java
-  call compile preprocessFileLineNumbers "\z\addons\dayz_code\init\compiles.sqf";
-  ~~~~
-  
-  and replace it with:
-  
-  ~~~~java
-  call compile preprocessFileLineNumbers "custom\compiles.sqf";
-  ~~~~
+	> 1. Open your custom ***compiles.sqf*** and replace this line:
+
+	> 	~~~~java
+	>	local_lockUnlock =			compile preprocessFileLineNumbers "\z\addons\dayz_code\compile\local_lockUnlock.sqf";
+	> 	~~~~
+	> With this line:
+	> 	~~~~java
+	>	local_lockUnlock =			compile preprocessFileLineNumbers "custom\local_lockUnlock.sqf";
+	> 	~~~~
+	
+	> 	Note: If you do not already have this line in your compiles then simply add the new line to your custom compiles.
+	
+	> 1. Copy the contents of the ***custom folder*** (in the download) into your custom folder ***except for the compiles.sqf***.
+
+
   
 1. You are now finished with the mission file portion. If necessary package and send it to your server.
 1. Now unpack your ***dayz_server.pbo*** and open it.
