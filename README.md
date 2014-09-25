@@ -15,10 +15,10 @@ This is a modified and preconfigured version of R3F's tow and lift script
 1. Navigate to your mission folder and open the ***init.sqf***.
 1. Open the ***init.sqf*** in the root of your mission folder and paste the following at the bottom:
 	
-~~~~java
-//Tow and lift
-[] execVM "R3F_ARTY_AND_LOG\init.sqf";
-~~~~
+	~~~~java
+	//Tow and lift
+	[] execVM "R3F_ARTY_AND_LOG\init.sqf";
+	~~~~
 
 1. If you do not have a custom compiles.sqf do step (A). If you have a custom compiles.sqf do step (B).
 	   
