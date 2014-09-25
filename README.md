@@ -12,19 +12,18 @@ This is a modified and preconfigured version of R3F's tow and lift script
 	> Note: "Your_Mission.pbo" is a placeholder name. Your mission might be called "DayZ_Epoch_11.Chernarus", "DayZ_Epoch_13.Tavi", or "dayz_mission" depending on hosting and chosen map.
 
 1. Extract the downloaded folder and copy the ***R3F_ARTY_AND_LOG*** folder into the root of your mission folder.
+1. Navigate to your mission folder and open the ***init.sqf***.
+1. Open the ***init.sqf*** in the root of your mission folder and paste the following at the bottom:
+	
+~~~~java
+//Tow and lift
+[] execVM "R3F_ARTY_AND_LOG\init.sqf";
+~~~~
 
 1. If you do not have a custom compiles.sqf do step (A). If you have a custom compiles.sqf do step (B).
 	   
 	> #### (A)
 
-	> 1. Navigate to your mission folder and open the ***init.sqf***.
-	> 1. Open the ***init.sqf*** in the root of your mission folder and paste the following at the bottom:
-	
-	>	~~~~java
-	>  	//Tow and lift
-	>	[] execVM "R3F_ARTY_AND_LOG\init.sqf";
-	>	~~~~
-	
 	> 1. Find the following line:
 	
 	>  	~~~~java
